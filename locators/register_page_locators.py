@@ -1,0 +1,18 @@
+class RegisterPageLocators:
+
+    PASSWORD = '[data-qa="password"]'
+    SELECT_DAYS = '[data-qa="days"]'
+    SELECT_MONTHS = '[data-qa="months"]'
+    SELECT_YEARS = '[data-qa="years"]'
+    CHECK_NEWSLETTER = '[name="newsletter"]'
+    CHECK_OFFER = '[name="optin"]'
+    FIRSTNAME = '[data-qa="first_name"]'
+    LASTNAME = '[data-qa="last_name"]'
+    COMPANY = '[data-qa="company"]'
+    ADDRESS = '[data-qa="address"]'
+    SELECT_COUNTRY = '[data-qa="country"]'
+    STATE = '[data-qa="state"]'
+    CITY = '[data-qa="city"]'
+    ZIPCODE = '[data-qa="zipcode"]'
+    MOBILE = '[data-qa="mobile_number"]'
+    CLICK_CREATEACCOUNT = '[data-qa="create-account"]'
