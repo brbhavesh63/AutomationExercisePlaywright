@@ -39,6 +39,9 @@ class HomePage:
     def NavigateToProducts(self):
         self.page.locator(HomePageLocators.PRODUCTS_LINK).click()
 
+    def NavigateToCarts(self):
+        self.page.locator(HomePageLocators.CART_LINK).click()
+
     def scrollToFooter(self):
         self.page.locator(HomePageLocators.FOOTER).scroll_into_view_if_needed()
 

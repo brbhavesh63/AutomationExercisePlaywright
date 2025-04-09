@@ -10,3 +10,4 @@ class HomePageLocators:
     SUBSCRIPTION_FIELD = "[id='susbscribe_email']"
     SUBSCRIPTION_BTN = "[id='subscribe']"
     SUBSCRIBE_SUCCESS_MESSAGE = "[class='alert-success alert']"
+    CART_LINK = "[class='nav navbar-nav'] [href='/view_cart']"
