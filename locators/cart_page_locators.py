@@ -1,6 +1,7 @@
 class CartPageLocators:
 
     NUMBER_OF_ROWS = 'tbody > tr'
+    QTY = '[class="disabled"]'
 
     @staticmethod
     def product_name(index:int)->str:

@@ -52,4 +52,9 @@ class HomePage:
     def verifySubscribSuccess(self):
         expect(self.page.locator(HomePageLocators.SUBSCRIBE_SUCCESS_MESSAGE)).to_have_text("You have been successfully subscribed!")
 
+    def scrollDownToFirstProduct(self):
+        self.page.locator(HomePageLocators.FIRST_PRODUCT_VIEW).scroll_into_view_if_needed()
+
+    def clickFirstProduct(self):
+        self.page.locator(HomePageLocators.FIRST_PRODUCT_VIEW).click()
 

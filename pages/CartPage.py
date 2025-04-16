@@ -1,6 +1,7 @@
 from playwright.sync_api import Page
 
 from locators.cart_page_locators import CartPageLocators
+from pages.ProductsDetailPage import ProductsDetailsPage
 from pages.ProductsPage import ProductPage
 
 
@@ -25,3 +26,7 @@ class CartPage:
 
         assert self.name_row_list == ProductPage.name_list and self.price_row_list == ProductPage.price_list
 
+
+    def verifyQty(self,qty):
+        cart_qty = self.page.locator(CartPageLocators.QTY).text_content()
+        assert  cart_qty == qty

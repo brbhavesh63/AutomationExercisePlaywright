@@ -26,6 +26,10 @@ def search_product_data(request):
 def subscription_data(request):
     return request.param
 
+@pytest.fixture()
+def qty():
+    return "4"
+
 @pytest.fixture
 def browserInstance(playwright,request):
     browser_name = request.config.getoption("--browser_name")

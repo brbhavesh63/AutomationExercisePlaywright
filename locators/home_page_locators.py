@@ -11,3 +11,4 @@ class HomePageLocators:
     SUBSCRIPTION_BTN = "[id='subscribe']"
     SUBSCRIBE_SUCCESS_MESSAGE = "[class='alert-success alert']"
     CART_LINK = "[class='nav navbar-nav'] [href='/view_cart']"
+    FIRST_PRODUCT_VIEW = "//*[@href='/product_details/1']"
