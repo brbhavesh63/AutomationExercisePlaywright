@@ -1,8 +1,0 @@
-{
-  "contact_us_details" : [{
-    "contactus_name" : "bhavesh",
-    "contactus_email" : "b@mail.com",
-    "contactus_subject" : "Test Subject",
-    "contactus_message" : "Test Message"
-  }]
-}
